@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://unpkg.com/unpoly@2.6.1/unpoly.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/unpoly@2.6.1/unpoly.min.css">
+  <title>Unpoly test</title>
+  <script src="script.js"></script>
+  <style>
+  html, body { margin: 0 }
+
+  video {
+    display: block;
+    width: 437px;
+    height: auto;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+  <h1>page 1 with an autoplaying video with no controls</h1>
+  <a href="/page1.html" up-target="body">page 1</a>
+  <a href="/page2.html" up-target="body">page 2</a>
+
+  <video autoplay="" loop="" muted="" width="875" height="658">
+    <source src="https://assets.steadyhq.com/gfx/promotional_page/home_how_it_works_step1.gif?fm=mp4" type="video/mp4">
+  </video>
+
+  <footer>some footer</footer>
+</body>
+<html>
