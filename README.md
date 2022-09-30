@@ -16,6 +16,8 @@ When I click Unpoly links that lead to pages with videos, the videos do not load
 
 ![](./safari.gif)
 
+> Tested on macOS 12.4, Safari Version 15.5 (17613.2.7.1.8)
+
 ## Workaround
 
 This problem can be "fixed" for autoplaying videos by calling their `play` (or `load`) method. This loads and plays the video. But this only works for autoplaying videos without controls - for videos with controls, the controls do not show up when this "fix" is applied. The controls also do not show up whe right-clicking on the video and choosing "show/hide controls".
